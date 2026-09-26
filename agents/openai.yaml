@@ -1,0 +1,14 @@
+interface:
+  display_name: Auto365 Writer
+  short_description: Viết và sửa Content SEO/GEO theo chuẩn Auto365 v1.7
+  default_prompt: Dùng $auto365-writer để viết bài theo brief và hồ sơ tôi cung cấp,
+    áp dụng tiêu chuẩn Auto365 v1.7.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
