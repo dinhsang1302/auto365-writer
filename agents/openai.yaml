@@ -1,8 +1,9 @@
 interface:
   display_name: Auto365 Writer
-  short_description: Viết và sửa Content SEO/GEO theo chuẩn Auto365 v1.7
+  short_description: Viết, sửa và bàn giao Content SEO/GEO/HTML Auto365 V1.8
   default_prompt: Dùng $auto365-writer để viết bài theo brief và hồ sơ tôi cung cấp,
-    áp dụng tiêu chuẩn Auto365 v1.7.
+    áp dụng tiêu chuẩn Auto365 V1.8, tự kiểm CX đúng phạm vi và bàn giao ba file đồng bộ;
+    chỉ tạo HTML khi nhiệm vụ yêu cầu HTML.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
