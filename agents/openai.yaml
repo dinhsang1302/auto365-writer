@@ -1,15 +1,13 @@
 interface:
-  display_name: Auto365 Writer
-  short_description: Viết, sửa và bàn giao Content SEO/GEO/HTML Auto365 V1.8
-  default_prompt: Dùng $auto365-writer để viết bài theo brief và hồ sơ tôi cung cấp,
-    áp dụng tiêu chuẩn Auto365 V1.8, tự kiểm CX đúng phạm vi và bàn giao ba file đồng bộ;
-    chỉ tạo HTML khi nhiệm vụ yêu cầu HTML.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "Auto365 Writer"
+  short_description: "Viết, sửa và bàn giao SEO/GEO/HTML Auto365 V1.9 R1"
+  default_prompt: "Dùng $auto365-writer viết hoặc sửa bài theo brief và hồ sơ tôi cung cấp, áp dụng V1.9 R1 kế thừa nền V1.8, tự kiểm đúng phạm vi và bàn giao đồng bộ theo yêu cầu."
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
 policy:
   products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
   allow_implicit_invocation: true
